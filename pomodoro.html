@@ -7,34 +7,35 @@
 <body>
 
     <div class="main-box">
-        <p>pomodoro x</p>
-        <p>xx:xx</p>
+        <p class="box-name">pomodoro x</p>
+        <p id="main-display" class="big-time-display">xx:xx</p>
     </div>
     <div class="start-and-reset">
-        <button class="left-button">start</button> 
-        <button class="right-button">reset</button> 
+        <button id="start-button" class="left-button">start</button> 
+        <button id="reset-button" class="right-button">reset</button> 
     </div>  
     <div class="settings">
         <div class="box">
-            <p>pomodoro</p>
-            <p>xx:xx</p>
-            <button class="minus-button">-</button> 
-            <button class="plus-button">+</button> 
+            <p class="box-name">pomodoro</p>
+            <p id="pomodoro-display" class="small-time-display">xx:xx</p>
+            <button id="pomodoro-minus-button" class="minus-button">-</button> 
+            <button id="pomodoro-plus-button" class="plus-button">+</button> 
         </div>
 
         <div class="box">
-            <p>short break</p>
-            <p>xx:xx</p>
-            <button class="minus-button">-</button> 
-            <button class="plus-button">+</button> 
+            <p class="box-name">short break</p>
+            <p id="short-break-display" class="small-time-display">xx:xx</p>
+            <button id="short-break-minus-button" class="minus-button">-</button> 
+            <button id="short-break-plus-button" class="plus-button">+</button> 
         </div>
 
         <div class="box">
-            <p>long break</p>
-            <p>xx:xx</p>
-            <button class="minus-button">-</button> 
-            <button class="plus-button">+</button> 
+            <p class="box-name">long break</p>
+            <p id="long-break-display" class="small-time-display">xx:xx</p>
+            <button id="long-break-minus-button" class="minus-button">-</button> 
+            <button id="long-break-plus-button" class="plus-button">+</button> 
         </div>
     </div>
+    <script src="pomodoro.js"></script>
 </body>
 </html>
